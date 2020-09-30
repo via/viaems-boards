@@ -1,0 +1,30 @@
+vnl5090 5pin for injector drivers and lsd
+mic4469 for ignitor outputs
+tl750m05 single regulator (confirm 500 mA is enough for everything)
+ - or lm2931 dedicated regulator for adc -- 10 mA is really enough for just ADC
+   and MAP sensors, only real output is TPS, which is very low current
+   and lm2937 for main power
+
+Only support:
+4 dedicated injectors with vnl5090
+4 dedicated lsds with vnl5090
+4 dedicated ignition outputs with mic4469
+
+expansion pin header to go to potential second board with at least:
+4 more ignition
+4 more injection
+4 hsd
+4 lsd
+maybe some inputs?
+
+power considerations:
+tc4427 - 5 mA
+maxx9926 - 10 mA
+stm32f4 - 110 mA
+can tranceiver = 70 mA
+adc = <1 mA
+
+output:
+map sensor = 10 mA
+
+
