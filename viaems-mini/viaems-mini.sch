@@ -76,7 +76,7 @@ U 1 1 5E010F75
 P 2300 950
 F 0 "U2" H 2300 1192 50  0000 C CNN
 F 1 "LM2937-N" H 2300 1101 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2300 1175 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 2300 1175 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2937.pdf" H 2300 900 50  0001 C CNN
 	1    2300 950 
 	1    0    0    -1  
@@ -131,8 +131,9 @@ U 1 1 5E011147
 P 3250 1100
 F 0 "C15" H 3365 1146 50  0000 L CNN
 F 1 "47 uF" H 3365 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3288 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3288 950 50  0001 C CNN
 F 3 "~" H 3250 1100 50  0001 C CNN
+F 4 "478-9009-1-ND" H 3250 1100 50  0001 C CNN "Digikey-Part"
 	1    3250 1100
 	1    0    0    -1  
 $EndComp
@@ -270,10 +271,10 @@ Connection ~ 5450 7650
 Wire Wire Line
 	5450 7650 5550 7650
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J11
+L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 5E1757DB
 P 9750 2750
-F 0 "J11" V 9754 3130 50  0000 L CNN
+F 0 "J12" V 9754 3130 50  0000 L CNN
 F 1 "Sensors" V 9845 3130 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 9750 2750 50  0001 C CNN
 F 3 "~" H 9750 2750 50  0001 C CNN
@@ -444,24 +445,10 @@ Wire Notes Line
 	6150 550  4100 550 
 Text Notes 5650 1700 0    50   ~ 0
 Cpu Power
-$Comp
-L Connector:USB_B_Micro J13
-U 1 1 5E1E96BA
-P 9950 1050
-F 0 "J13" H 10005 1517 50  0000 C CNN
-F 1 "USB_B_Micro" H 10005 1426 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 10100 1000 50  0001 C CNN
-F 3 "~" H 10100 1000 50  0001 C CNN
-	1    9950 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 1250 10250 1250
 Wire Wire Line
 	10250 1150 10300 1150
 Wire Wire Line
 	10300 1050 10250 1050
-NoConn ~ 10300 1250
 Text Label 10300 1050 0    50   ~ 0
 USB_DP
 Text Label 10300 1150 0    50   ~ 0
@@ -624,10 +611,10 @@ Connection ~ 3900 3850
 Wire Wire Line
 	3900 3850 2900 3850
 $Comp
-L Connector_Generic:Conn_01x09 J3
+L Connector_Generic:Conn_01x09 J4
 U 1 1 5E3214EF
 P 3500 3200
-F 0 "J3" V 3717 3196 50  0000 C CNN
+F 0 "J4" V 3717 3196 50  0000 C CNN
 F 1 "Ignition Trace" V 3626 3196 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3500 3200 50  0001 C CNN
 F 3 "~" H 3500 3200 50  0001 C CNN
@@ -646,10 +633,10 @@ F 3 "" H 3100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x09 J4
+L Connector_Generic:Conn_01x09 J5
 U 1 1 5E321688
 P 3900 5900
-F 0 "J4" V 4024 5896 50  0000 C CNN
+F 0 "J5" V 4024 5896 50  0000 C CNN
 F 1 "Injector Trace" V 4115 5896 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3900 5900 50  0001 C CNN
 F 3 "~" H 3900 5900 50  0001 C CNN
@@ -657,70 +644,71 @@ F 3 "~" H 3900 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J12
+L Connector:Conn_ARM_JTAG_SWD_10 J13
 U 1 1 5E377F32
-P 9850 5800
-F 0 "J12" H 9410 5846 50  0000 R CNN
-F 1 "Debug" H 9410 5755 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9900 5250 50  0001 L TNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 9500 4550 50  0001 C CNN
-	1    9850 5800
+P 9000 5750
+F 0 "J13" H 8560 5796 50  0000 R CNN
+F 1 "Debug" H 8560 5705 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9050 5200 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 8650 4500 50  0001 C CNN
+F 4 "SAM9438-ND" H 9000 5750 50  0001 C CNN "Digikey-Part"
+	1    9000 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 9850 5100 2    50   Input ~ 0
+Text GLabel 9000 5050 2    50   Input ~ 0
 3v_main
 Wire Wire Line
-	9850 5100 9850 5200
+	9000 5050 9000 5150
 $Comp
-L power:GND #PWR025
+L power:GND #PWR026
 U 1 1 5E39841D
-P 10000 6400
-F 0 "#PWR025" H 10000 6150 50  0001 C CNN
-F 1 "GND" H 10005 6227 50  0001 C CNN
-F 2 "" H 10000 6400 50  0001 C CNN
-F 3 "" H 10000 6400 50  0001 C CNN
-	1    10000 6400
+P 9150 6350
+F 0 "#PWR026" H 9150 6100 50  0001 C CNN
+F 1 "GND" H 9155 6177 50  0001 C CNN
+F 2 "" H 9150 6350 50  0001 C CNN
+F 3 "" H 9150 6350 50  0001 C CNN
+	1    9150 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 6400 9850 6400
+	9150 6350 9000 6350
 Wire Wire Line
-	9850 6400 9750 6400
-Connection ~ 9850 6400
-NoConn ~ 10350 6000
-Text Label 10350 5800 0    50   ~ 0
+	9000 6350 8900 6350
+Connection ~ 9000 6350
+NoConn ~ 9500 5950
+Text Label 9500 5750 0    50   ~ 0
 SWDIO
-Text Label 10350 5700 0    50   ~ 0
+Text Label 9500 5650 0    50   ~ 0
 SWDCLK
 $Comp
 L Device:C C23
 U 1 1 5E3DA78F
-P 10800 5650
-F 0 "C23" H 10915 5696 50  0000 L CNN
-F 1 "0.1 uF" H 10915 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10838 5500 50  0001 C CNN
-F 3 "~" H 10800 5650 50  0001 C CNN
-	1    10800 5650
+P 9950 5600
+F 0 "C23" H 10065 5646 50  0000 L CNN
+F 1 "0.1 uF" H 10065 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9988 5450 50  0001 C CNN
+F 3 "~" H 9950 5600 50  0001 C CNN
+	1    9950 5600
 	1    0    0    -1  
 $EndComp
-Text Label 10900 5500 0    50   ~ 0
+Text Label 10050 5450 0    50   ~ 0
 NRST
 $Comp
 L power:GND #PWR030
 U 1 1 5E3DA861
-P 10800 5800
-F 0 "#PWR030" H 10800 5550 50  0001 C CNN
-F 1 "GND" H 10805 5627 50  0000 C CNN
-F 2 "" H 10800 5800 50  0001 C CNN
-F 3 "" H 10800 5800 50  0001 C CNN
-	1    10800 5800
+P 9950 5750
+F 0 "#PWR030" H 9950 5500 50  0001 C CNN
+F 1 "GND" H 9955 5577 50  0000 C CNN
+F 2 "" H 9950 5750 50  0001 C CNN
+F 3 "" H 9950 5750 50  0001 C CNN
+	1    9950 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 5500 10800 5500
+	10050 5450 9950 5450
 Wire Wire Line
-	10350 5500 10800 5500
-Connection ~ 10800 5500
+	9500 5450 9950 5450
+Connection ~ 9950 5450
 Text Label 4750 2350 2    50   ~ 0
 NRST
 $Comp
@@ -1070,10 +1058,10 @@ IG7
 Text Label 2100 4550 2    50   ~ 0
 IG8
 $Comp
-L Connector_Generic:Conn_02x06_Counter_Clockwise J2
+L Connector_Generic:Conn_02x06_Counter_Clockwise J1
 U 1 1 5E5F28AF
 P 1150 3850
-F 0 "J2" H 1200 4267 50  0000 C CNN
+F 0 "J1" H 1200 4267 50  0000 C CNN
 F 1 "Primary" H 1200 4176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1150 3850 50  0001 C CNN
 F 3 "~" H 1150 3850 50  0001 C CNN
@@ -1117,56 +1105,45 @@ Text Label 950  3750 2    50   ~ 0
 CANL
 Text Label 1450 3750 0    50   ~ 0
 CANH
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J1
-U 1 1 5E612A3B
-P 1100 5100
-F 0 "J1" H 1150 5717 50  0000 C CNN
-F 1 "Power Drivers" H 1150 5626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1100 5100 50  0001 C CNN
-F 3 "~" H 1100 5100 50  0001 C CNN
-	1    1100 5100
-	1    0    0    -1  
-$EndComp
-Text Label 900  4700 2    50   ~ 0
+Text Label 1050 4750 2    50   ~ 0
 INJ-GND
-Text Label 1400 4700 0    50   ~ 0
+Text Label 1050 4850 2    50   ~ 0
 INJ-GND
-Text Label 900  4800 2    50   ~ 0
+Text Label 1050 4350 2    50   ~ 0
 INJ1
-Text Label 1400 4800 0    50   ~ 0
+Text Label 1050 4450 2    50   ~ 0
 INJ2
-Text Label 900  4900 2    50   ~ 0
+Text Label 1050 4550 2    50   ~ 0
 INJ3
-Text Label 1400 4900 0    50   ~ 0
+Text Label 1050 4650 2    50   ~ 0
 INJ4
-Text Label 900  5000 2    50   ~ 0
+Text Label 1050 4950 2    50   ~ 0
 INJ5
-Text Label 1400 5000 0    50   ~ 0
+Text Label 1050 5050 2    50   ~ 0
 INJ6
-Text Label 900  5100 2    50   ~ 0
+Text Label 1050 5150 2    50   ~ 0
 INJ7
-Text Label 1400 5100 0    50   ~ 0
+Text Label 1050 5250 2    50   ~ 0
 INJ8
-Text Label 900  5200 2    50   ~ 0
+Text Label 1050 6150 2    50   ~ 0
 LSD-GND
-Text Label 1400 5200 0    50   ~ 0
+Text Label 1050 6050 2    50   ~ 0
 LSD-GND
-Text Label 900  5300 2    50   ~ 0
+Text Label 1050 5650 2    50   ~ 0
 LSD1
-Text Label 1400 5300 0    50   ~ 0
+Text Label 1050 5750 2    50   ~ 0
 LSD2
-Text Label 900  5400 2    50   ~ 0
+Text Label 1050 5850 2    50   ~ 0
 LSD3
-Text Label 1400 5400 0    50   ~ 0
+Text Label 1050 5950 2    50   ~ 0
 LSD4
-Text Label 900  5500 2    50   ~ 0
+Text Label 1050 6250 2    50   ~ 0
 LSD5
-Text Label 900  5600 2    50   ~ 0
+Text Label 1050 6450 2    50   ~ 0
 LSD7
-Text Label 1400 5500 0    50   ~ 0
+Text Label 1050 6350 2    50   ~ 0
 LSD6
-Text Label 1400 5600 0    50   ~ 0
+Text Label 1050 6550 2    50   ~ 0
 LSD8
 $Comp
 L power:PWR_FLAG #FLG01
@@ -1392,7 +1369,7 @@ Wire Wire Line
 	6550 2450 6850 2450
 Wire Wire Line
 	6750 2350 6550 2350
-Text Label 10350 5900 0    50   ~ 0
+Text Label 9500 5850 0    50   ~ 0
 SWDOUT
 Wire Wire Line
 	5650 7650 5750 7650
@@ -1420,17 +1397,6 @@ Wire Wire Line
 	7050 2650 7050 2500
 Wire Wire Line
 	7050 2500 7700 2500
-$Comp
-L Connector:Micro_SD_Card J14
-U 1 1 5EBEE29A
-P 10200 4350
-F 0 "J14" H 10150 5067 50  0000 C CNN
-F 1 "Micro_SD_Card" H 10150 4976 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 11350 4650 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 10200 4350 50  0001 C CNN
-	1    10200 4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR032
 U 1 1 5EBEE3D4
@@ -1604,10 +1570,10 @@ PWM3
 Text Label 2900 6250 0    50   ~ 0
 PWM4
 $Comp
-L Connector_Generic:Conn_01x08 J7
+L Connector_Generic:Conn_01x08 J8
 U 1 1 5F7CBFA3
 P 7000 6050
-F 0 "J7" H 7079 6042 50  0000 L CNN
+F 0 "J8" H 7079 6042 50  0000 L CNN
 F 1 "PORTC" H 7079 5951 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7000 6050 50  0001 C CNN
 F 3 "~" H 7000 6050 50  0001 C CNN
@@ -1631,10 +1597,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 5750 6550 5750
 $Comp
-L Connector_Generic:Conn_01x02 J10
+L Connector_Generic:Conn_01x02 J11
 U 1 1 5F84C101
 P 8150 5150
-F 0 "J10" H 8230 5142 50  0000 L CNN
+F 0 "J11" H 8230 5142 50  0000 L CNN
 F 1 "TEST" H 8230 5051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 5150 50  0001 C CNN
 F 3 "~" H 8150 5150 50  0001 C CNN
@@ -1646,10 +1612,10 @@ TEST1
 Text Label 7950 5250 2    50   ~ 0
 TEST2
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 J10
 U 1 1 5F84C4BB
 P 8150 4850
-F 0 "J9" H 8230 4842 50  0000 L CNN
+F 0 "J10" H 8230 4842 50  0000 L CNN
 F 1 "CAN2" H 8230 4751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 4850 50  0001 C CNN
 F 3 "~" H 8150 4850 50  0001 C CNN
@@ -1661,10 +1627,10 @@ CAN2_RX
 Text Label 7950 4950 2    50   ~ 0
 CAN2_TX
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5F84C6E8
 P 8150 4550
-F 0 "J8" H 8229 4542 50  0000 L CNN
+F 0 "J9" H 8229 4542 50  0000 L CNN
 F 1 "PWM56" H 8229 4451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 4550 50  0001 C CNN
 F 3 "~" H 8150 4550 50  0001 C CNN
@@ -1676,10 +1642,10 @@ PWM5
 Text Label 7950 4650 2    50   ~ 0
 PWM6
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J6
 U 1 1 5F85D6A1
 P 4150 7150
-F 0 "J5" H 4070 6725 50  0000 C CNN
+F 0 "J6" H 4070 6725 50  0000 C CNN
 F 1 "GPIO58" H 4070 6816 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4150 7150 50  0001 C CNN
 F 3 "~" H 4150 7150 50  0001 C CNN
@@ -1760,10 +1726,10 @@ Text GLabel 4750 2950 3    50   Input ~ 0
 Text Label 10950 1700 1    50   ~ 0
 PH1
 $Comp
-L Connector_Generic:Conn_01x04 J6
+L Connector_Generic:Conn_01x04 J7
 U 1 1 5F99855A
 P 7000 2850
-F 0 "J6" H 7080 2842 50  0000 L CNN
+F 0 "J7" H 7080 2842 50  0000 L CNN
 F 1 "SPI1" H 7080 2751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7000 2850 50  0001 C CNN
 F 3 "~" H 7000 2850 50  0001 C CNN
@@ -1805,21 +1771,16 @@ Wire Wire Line
 NoConn ~ 6550 7150
 NoConn ~ 6550 7250
 $Comp
-L power:GND #PWR026
+L power:GND #PWR025
 U 1 1 5FA36B93
-P 10050 1450
-F 0 "#PWR026" H 10050 1200 50  0001 C CNN
-F 1 "GND" H 10055 1277 50  0000 C CNN
-F 2 "" H 10050 1450 50  0001 C CNN
-F 3 "" H 10050 1450 50  0001 C CNN
-	1    10050 1450
+P 9950 1450
+F 0 "#PWR025" H 9950 1200 50  0001 C CNN
+F 1 "GND" H 9955 1277 50  0000 C CNN
+F 2 "" H 9950 1450 50  0001 C CNN
+F 3 "" H 9950 1450 50  0001 C CNN
+	1    9950 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 1450 9950 1450
-Wire Wire Line
-	9950 1450 9850 1450
-Connection ~ 9950 1450
 Text Label 7900 4450 2    50   ~ 0
 SWDOUT
 Wire Wire Line
@@ -1997,4 +1958,54 @@ Text Notes 7600 1650 0    50   ~ 0
 5v out
 Text Label 7350 950  0    50   ~ 0
 5v_out
+Wire Wire Line
+	9850 1450 9950 1450
+Connection ~ 9950 1450
+$Comp
+L Connector:USB_B J14
+U 1 1 5F7830FA
+P 9950 1050
+F 0 "J14" H 10005 1517 50  0000 C CNN
+F 1 "USB_B" H 10005 1426 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 10100 1000 50  0001 C CNN
+F 3 " ~" H 10100 1000 50  0001 C CNN
+F 4 "ED2982-ND" H 9950 1050 50  0001 C CNN "Digikey-Part"
+	1    9950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5F79213D
+P 1250 4750
+F 0 "J2" H 1329 4742 50  0000 L CNN
+F 1 "Injectors" H 1329 4651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1250 4750 50  0001 C CNN
+F 3 "~" H 1250 4750 50  0001 C CNN
+	1    1250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J3
+U 1 1 5F7A7B19
+P 1250 6050
+F 0 "J3" H 1329 6042 50  0000 L CNN
+F 1 "LSD" H 1329 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1250 6050 50  0001 C CNN
+F 3 "~" H 1250 6050 50  0001 C CNN
+	1    1250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card_Det_Hirose_DM3AT J15
+U 1 1 5F825F7B
+P 10200 4450
+F 0 "J15" H 10150 5267 50  0000 C CNN
+F 1 "Micro SD" H 10150 5176 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 12250 5150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10200 4550 50  0001 C CNN
+	1    10200 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9300 4850
+NoConn ~ 9300 4950
 $EndSCHEMATC
