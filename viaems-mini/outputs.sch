@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:viaems-mini-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L viaems:MIC4469 U5
+L viaems-mini-rescue:MIC4469-viaems U5
 U 1 1 5E011E3A
 P 2050 1750
 F 0 "U5" H 2200 900 50  0000 C CNN
@@ -311,7 +310,7 @@ Wire Notes Line
 Text Notes 3650 3150 0    50   ~ 0
 Ignition
 $Comp
-L viaems:VNL5090S5-E Q2
+L viaems-mini-rescue:VNL5090S5-E-viaems Q2
 U 1 1 5E032387
 P 2050 4650
 F 0 "Q2" H 2050 4915 50  0000 C CNN
@@ -400,7 +399,7 @@ Wire Wire Line
 	1450 4650 1500 4650
 NoConn ~ 1500 4850
 $Comp
-L viaems:VNL5090S5-E Q4
+L viaems-mini-rescue:VNL5090S5-E-viaems Q4
 U 1 1 5E03E3CD
 P 4700 4700
 F 0 "Q4" H 4700 4965 50  0000 C CNN
@@ -487,7 +486,7 @@ Wire Wire Line
 	4100 4700 4150 4700
 NoConn ~ 4150 4900
 $Comp
-L viaems:VNL5090S5-E Q1
+L viaems-mini-rescue:VNL5090S5-E-viaems Q1
 U 1 1 5E03F616
 P 2050 3800
 F 0 "Q1" H 2050 4065 50  0000 C CNN
@@ -574,7 +573,7 @@ Wire Wire Line
 	1450 3800 1500 3800
 NoConn ~ 1500 4000
 $Comp
-L viaems:VNL5090S5-E Q3
+L viaems-mini-rescue:VNL5090S5-E-viaems Q3
 U 1 1 5E03F646
 P 4700 3850
 F 0 "Q3" H 4700 4115 50  0000 C CNN
@@ -726,7 +725,7 @@ F 3 "~" H 6700 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q11
+L viaems-mini-rescue:VNL5090S5-E-viaems Q11
 U 1 1 5E05223D
 P 7400 2800
 F 0 "Q11" H 7400 3065 50  0000 C CNN
@@ -813,7 +812,7 @@ F 3 "~" H 6700 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q9
+L viaems-mini-rescue:VNL5090S5-E-viaems Q9
 U 1 1 5E099227
 P 7400 1350
 F 0 "Q9" H 7400 1615 50  0000 C CNN
@@ -895,7 +894,7 @@ F 3 "~" H 9150 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q12
+L viaems-mini-rescue:VNL5090S5-E-viaems Q12
 U 1 1 5E09C3B1
 P 9850 2550
 F 0 "Q12" H 9850 2815 50  0000 C CNN
@@ -982,7 +981,7 @@ F 3 "~" H 9150 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q10
+L viaems-mini-rescue:VNL5090S5-E-viaems Q10
 U 1 1 5E09C3E1
 P 9850 1350
 F 0 "Q10" H 9850 1615 50  0000 C CNN
@@ -1069,7 +1068,7 @@ F 3 "~" H 6700 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q15
+L viaems-mini-rescue:VNL5090S5-E-viaems Q15
 U 1 1 5E0A07BD
 P 7400 5600
 F 0 "Q15" H 7400 5865 50  0000 C CNN
@@ -1156,7 +1155,7 @@ F 3 "~" H 6700 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q13
+L viaems-mini-rescue:VNL5090S5-E-viaems Q13
 U 1 1 5E0A07ED
 P 7400 4100
 F 0 "Q13" H 7400 4365 50  0000 C CNN
@@ -1243,7 +1242,7 @@ F 3 "~" H 9150 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q16
+L viaems-mini-rescue:VNL5090S5-E-viaems Q16
 U 1 1 5E0A5ED3
 P 9850 5000
 F 0 "Q16" H 9850 5265 50  0000 C CNN
@@ -1330,7 +1329,7 @@ F 3 "~" H 9150 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L viaems:VNL5090S5-E Q14
+L viaems-mini-rescue:VNL5090S5-E-viaems Q14
 U 1 1 5E0A5F03
 P 9850 3800
 F 0 "Q14" H 9850 4065 50  0000 C CNN
@@ -1388,7 +1387,7 @@ Connection ~ 800  1750
 Wire Wire Line
 	2100 1000 2100 1450
 $Comp
-L viaems:MIC4469 U6
+L viaems-mini-rescue:MIC4469-viaems U6
 U 1 1 5E0FBDEA
 P 4600 1750
 F 0 "U6" H 4750 900 50  0000 C CNN
@@ -1711,7 +1710,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 5050 1400 5250
 $Comp
-L viaems:VNL5090S5-E Q6
+L viaems-mini-rescue:VNL5090S5-E-viaems Q6
 U 1 1 5E1E8A14
 P 2050 6400
 F 0 "Q6" H 2050 6665 50  0000 C CNN
@@ -1798,7 +1797,7 @@ Wire Wire Line
 	1450 6400 1500 6400
 NoConn ~ 1500 6600
 $Comp
-L viaems:VNL5090S5-E Q8
+L viaems-mini-rescue:VNL5090S5-E-viaems Q8
 U 1 1 5E1E8A43
 P 4700 6450
 F 0 "Q8" H 4700 6715 50  0000 C CNN
@@ -1885,7 +1884,7 @@ Wire Wire Line
 	4100 6450 4150 6450
 NoConn ~ 4150 6650
 $Comp
-L viaems:VNL5090S5-E Q5
+L viaems-mini-rescue:VNL5090S5-E-viaems Q5
 U 1 1 5E1E8A72
 P 2050 5550
 F 0 "Q5" H 2050 5815 50  0000 C CNN
@@ -1972,7 +1971,7 @@ Wire Wire Line
 	1450 5550 1500 5550
 NoConn ~ 1500 5750
 $Comp
-L viaems:VNL5090S5-E Q7
+L viaems-mini-rescue:VNL5090S5-E-viaems Q7
 U 1 1 5E1E8AA1
 P 4700 5600
 F 0 "Q7" H 4700 5865 50  0000 C CNN

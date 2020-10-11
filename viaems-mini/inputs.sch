@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:viaems-mini-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -711,7 +710,7 @@ CLT-adc
 Text Label 4450 4050 0    50   ~ 0
 IAT-adc
 $Comp
-L Sensor_Pressure:MPXA6115A U7
+L viaems-mini-rescue:MPXA6115A-Sensor_Pressure U7
 U 1 1 5E102466
 P 1750 5550
 F 0 "U7" H 1320 5596 50  0000 R CNN
@@ -831,7 +830,7 @@ F 3 "" H 2850 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Pressure:MPXA6115A U8
+L viaems-mini-rescue:MPXA6115A-Sensor_Pressure U8
 U 1 1 5E1131E0
 P 1750 6850
 F 0 "U8" H 1320 6896 50  0000 R CNN
@@ -951,7 +950,7 @@ F 3 "" H 2850 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L viaems:AD7888 U9
+L viaems-mini-rescue:AD7888-viaems U9
 U 1 1 5E115076
 P 4800 6250
 F 0 "U9" H 4550 6950 50  0000 C CNN
@@ -1155,7 +1154,7 @@ Wire Wire Line
 	7700 1450 7850 1450
 Connection ~ 7700 1450
 $Comp
-L viaems:MAX9926UAEE+ U10
+L viaems-mini-rescue:MAX9926UAEE+-viaems U10
 U 1 1 5E13EA4E
 P 7200 2800
 F 0 "U10" H 7200 3447 60  0000 C CNN
@@ -1277,7 +1276,7 @@ U 1 1 5E0C9A11
 P 8700 3300
 F 0 "R103" H 8770 3346 50  0000 L CNN
 F 1 "330" V 8700 3250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 3300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8630 3300 50  0001 C CNN
 F 3 "~" H 8700 3300 50  0001 C CNN
 	1    8700 3300
 	1    0    0    -1  
@@ -1343,7 +1342,7 @@ U 1 1 5E0DB805
 P 8700 2200
 F 0 "R102" H 8770 2246 50  0000 L CNN
 F 1 "330" V 8700 2150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8630 2200 50  0001 C CNN
 F 3 "~" H 8700 2200 50  0001 C CNN
 	1    8700 2200
 	1    0    0    1   

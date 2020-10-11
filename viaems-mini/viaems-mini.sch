@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:viaems-mini-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -281,52 +280,6 @@ F 3 "~" H 9750 2750 50  0001 C CNN
 	1    9750 2750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8900 3600 9850 3600
-Wire Wire Line
-	9850 3600 9850 3050
-Wire Wire Line
-	9750 3050 9750 3500
-Wire Wire Line
-	9750 3500 8900 3500
-Wire Wire Line
-	8900 3400 9650 3400
-Wire Wire Line
-	9650 3400 9650 3050
-Wire Wire Line
-	9550 3050 9550 3300
-Wire Wire Line
-	9550 3300 8900 3300
-Wire Wire Line
-	8900 3200 9450 3200
-Wire Wire Line
-	9450 3200 9450 3050
-Wire Wire Line
-	9350 3050 9350 3100
-Wire Wire Line
-	9350 3100 8900 3100
-Wire Wire Line
-	9350 2550 8900 2550
-Wire Wire Line
-	8900 2450 9450 2450
-Wire Wire Line
-	9450 2450 9450 2550
-Wire Wire Line
-	9550 2550 9550 2200
-Wire Wire Line
-	9550 2200 8900 2200
-Wire Wire Line
-	8900 2100 9650 2100
-Wire Wire Line
-	9650 2100 9650 2550
-Wire Wire Line
-	9750 2550 9750 2000
-Wire Wire Line
-	9750 2000 8900 2000
-Wire Wire Line
-	8900 1900 9850 1900
-Wire Wire Line
-	9850 1900 9850 2550
 $Comp
 L power:GND #PWR027
 U 1 1 5E1A3588
@@ -356,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3200 10050 3200
 $Comp
-L viaems:LM2940 U3
+L viaems-mini-rescue:LM2940-viaems U3
 U 1 1 5E1B6337
 P 5100 1000
 F 0 "U3" H 5100 1242 40  0000 C CNN
@@ -644,7 +597,7 @@ F 3 "~" H 3900 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J13
+L viaems-mini-rescue:Conn_ARM_JTAG_SWD_10-Connector J13
 U 1 1 5E377F32
 P 9000 5750
 F 0 "J13" H 8560 5796 50  0000 R CNN
@@ -1058,7 +1011,7 @@ IG7
 Text Label 2100 4550 2    50   ~ 0
 IG8
 $Comp
-L Connector_Generic:Conn_02x06_Counter_Clockwise J1
+L Connector_Generic:Conn_02x06_Odd_Even J1
 U 1 1 5E5F28AF
 P 1150 3850
 F 0 "J1" H 1200 4267 50  0000 C CNN
@@ -1082,28 +1035,26 @@ $EndComp
 Text GLabel 1550 3600 2    50   Input ~ 0
 12v_switched
 Wire Wire Line
-	950  3650 950  3500
-Wire Wire Line
 	950  3500 750  3500
-Text Label 950  3850 2    50   ~ 0
-IG1
-Text Label 950  3950 2    50   ~ 0
-IG2
-Text Label 950  4050 2    50   ~ 0
-IG3
-Text Label 950  4150 2    50   ~ 0
-IG4
-Text Label 1450 3850 0    50   ~ 0
-IG5
-Text Label 1450 3950 0    50   ~ 0
-IG6
-Text Label 1450 4050 0    50   ~ 0
-IG7
-Text Label 1450 4150 0    50   ~ 0
-IG8
 Text Label 950  3750 2    50   ~ 0
-CANL
+IG1
+Text Label 950  3850 2    50   ~ 0
+IG2
+Text Label 950  3950 2    50   ~ 0
+IG3
+Text Label 950  4050 2    50   ~ 0
+IG4
 Text Label 1450 3750 0    50   ~ 0
+IG5
+Text Label 1450 3850 0    50   ~ 0
+IG6
+Text Label 1450 3950 0    50   ~ 0
+IG7
+Text Label 1450 4050 0    50   ~ 0
+IG8
+Text Label 950  4150 2    50   ~ 0
+CANL
+Text Label 1450 4150 0    50   ~ 0
 CANH
 Text Label 1050 4750 2    50   ~ 0
 INJ-GND
@@ -1907,8 +1858,8 @@ AR Path="/5FCDA725" Ref="D1"  Part="1"
 AR Path="/5E0FAA1D/5FCDA725" Ref="D?"  Part="1" 
 F 0 "D1" V 6854 1179 50  0000 L CNN
 F 1 "5.6 V Zener" V 6945 1179 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 6900 1100 50  0001 C CNN
-F 3 "~" H 6900 1100 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 6900 1100 50  0001 C CNN
+F 3 "1N4734A-T50ACT-ND" H 6900 1100 50  0001 C CNN
 	1    6900 1100
 	0    1    1    0   
 $EndComp
@@ -1922,7 +1873,7 @@ F 0 "F1" V 6975 950 50  0000 C CNN
 F 1 "Polyfuse 100 mA" V 7066 950 50  0000 C CNN
 F 2 "Fuse:Fuse_0805_2012Metric" H 7250 750 50  0001 L CNN
 F 3 "~" H 7200 950 50  0001 C CNN
-F 4 "507-1810-2-ND" V 7200 950 50  0001 C CNN "Digikey-Part"
+F 4 "283-PTS080524V010CT-ND" V 7200 950 50  0001 C CNN "Digikey-Part"
 	1    7200 950 
 	0    1    1    0   
 $EndComp
@@ -1962,7 +1913,7 @@ Wire Wire Line
 	9850 1450 9950 1450
 Connection ~ 9950 1450
 $Comp
-L Connector:USB_B J14
+L viaems-mini-rescue:USB_B-Connector J14
 U 1 1 5F7830FA
 P 9950 1050
 F 0 "J14" H 10005 1517 50  0000 C CNN
@@ -1996,7 +1947,7 @@ F 3 "~" H 1250 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J15
+L viaems-mini-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector J15
 U 1 1 5F825F7B
 P 10200 4450
 F 0 "J15" H 10150 5267 50  0000 C CNN
@@ -2008,4 +1959,54 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 $EndComp
 NoConn ~ 9300 4850
 NoConn ~ 9300 4950
+Wire Wire Line
+	950  3500 950  3650
+Text Label 8900 3100 0    50   ~ 0
+SPR
+Text Label 8900 3200 0    50   ~ 0
+IAT
+Text Label 8900 3300 0    50   ~ 0
+CLT
+Text Label 8900 3400 0    50   ~ 0
+BRV
+Text Label 8900 3500 0    50   ~ 0
+EGO
+Text Label 8900 3600 0    50   ~ 0
+TPS
+Text Label 8900 2450 0    50   ~ 0
+DIG1
+Text Label 8900 2550 0    50   ~ 0
+DIG2
+Text Label 8900 1900 0    50   ~ 0
+IN1+
+Text Label 8900 2000 0    50   ~ 0
+IN1-
+Text Label 8900 2100 0    50   ~ 0
+IN2+
+Text Label 8900 2200 0    50   ~ 0
+IN2-
+Text Label 9350 2550 1    50   ~ 0
+DIG1
+Text Label 9350 3050 3    50   ~ 0
+DIG2
+Text Label 9450 2550 1    50   ~ 0
+IN2-
+Text Label 9450 3050 3    50   ~ 0
+IN2+
+Text Label 9550 2550 1    50   ~ 0
+IN1-
+Text Label 9550 3050 3    50   ~ 0
+IN1+
+Text Label 9850 2550 1    50   ~ 0
+TPS
+Text Label 9850 3050 3    50   ~ 0
+EGO
+Text Label 9750 2550 1    50   ~ 0
+BRV
+Text Label 9750 3050 3    50   ~ 0
+CLT
+Text Label 9650 2550 1    50   ~ 0
+IAT
+Text Label 9650 3050 3    50   ~ 0
+SPR
 $EndSCHEMATC
