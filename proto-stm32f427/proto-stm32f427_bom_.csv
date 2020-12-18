@@ -1,0 +1,38 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey-Part
+1,Unpolarized capacitor,C,C8 C10 C11 C12 C13 C14 C15 C16 C18,0.1 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,9,~,478-10836-1-ND
+2,Unpolarized capacitor,C,C7 C17,1 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,1276-1066-1-ND
+3,Unpolarized capacitor,C,C1,10 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,587-3417-1-ND
+4,Unpolarized capacitor,C,C3 C5,16 pF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,311-4228-1-ND
+5,Unpolarized capacitor,C,C4 C6,2.2 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,1276-1188-1-ND
+6,Unpolarized capacitor,C,C9,4.7 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,445-14527-1-ND
+7,Unpolarized capacitor,C,C2,47 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,718-1608-1-ND
+8,"40V 0.35A Small Signal Schottky Diode, SOD-323",BAT48JFILM,D1,BAT48JFILM,D_SOD-323_HandSoldering,1,www.st.com/resource/en/datasheet/bat48.pdf,B0530WS-FDICT-ND
+9,Light emitting diode,LED,D2 D3,LED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,475-1415-1-ND
+10,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Conn_ARM_JTAG_SWD_10,J4,Debug,PinHeader_2x05_P1.27mm_Vertical_SMD,1,http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf,SAM9438-ND
+11,"Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x25_Odd_Even,J1 J5,Left,PinHeader_2x25_P2.54mm_Vertical,2,~,HTSW-125-14-T-D-ND
+12,Micro SD Card Socket,Micro_SD_Card,J2,Micro_SD_Card,microSD_HC_Wuerth_693072010801,1,http://katalog.we-online.de/em/datasheet/693072010801.pdf,732-3820-1-ND
+13,USB Micro Type B connector,USB_B_Micro,J3,USB,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,1,~,609-4050-1-ND
+14,"Jumper, normally closed",Jumper,JP1,Idd,PinHeader_1x02_P2.54mm_Vertical,1,~,952-2262-ND
+15,Resistor,R,R2,100k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,P100KDACT-ND
+16,Resistor,R,R5,10k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,RNCF0805DTE10K0CT-ND
+17,Resistor,R,R1,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,RNCP0805FTD1K00CT-ND
+18,Resistor,R,R3 R6 R7,220,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~,A129741CT-ND
+19,Resistor,R,R4,4.7k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,311-4.70KCRCT-ND
+20,"500-mA Low Dropout Regulator, TO-220",LM2937xT,U1,NCV5501,TO-252-2,1,https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF,NCV5501DT33GOS-ND
+21,"ARM Cortex-M4 MCU, 1024KB flash, 192KB RAM, 180MHz, 1.8-3.6V, 82 GPIO, LQFP-100",STM32F427VGTx,U2,STM32F427VGTx,LQFP-100_14x14mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf,497-16769-ND
+22,Two pin crystal,Crystal,Y1,8 MHz,Crystal_HC49-U_Vertical,1,~,535-10212-1-ND
+
+
+
+
+
+Component Groups:,22
+Component Count:,37
+Fitted Components:,37
+Number of PCBs:,1
+Total components:,37
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Sun 12 Apr 2020 11:54:07 PM EDT
+Schematic Source:,/home/via/dev/proto-stm32f427/proto-stm32f427.sch
+KiCad Version:,Eeschema 5.0.2+dfsg1-1
