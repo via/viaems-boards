@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.016,
-          "height": 1.7272,
-          "width": 2.032
+          "drill": 3.0,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -366,15 +366,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "high",
-        "nets": [
-          "INJ1-out",
-          "INJ2-out",
-          "INJ3-out",
-          "INJ4-out",
-          "LSD1-out",
-          "LSD2-out",
-          "OUT_GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
