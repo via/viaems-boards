@@ -41,9 +41,6 @@ Shouldn't be used anymore, but really only because the outputs chosen for test
 trigger vs real triggers are different in firmware.  The board can be used
 again with some minor tweaks (and I have used this board for years)
 
-## Proto-stm32f427
-Generic testing board for stm32f407, stm32f427, or, apparently, a gd32f470.
-
 ## Analog V2
 Experiment board to prototype use of the MAX11632, and some knock sensing
 equipment.  The ADC samples fast enough to dedicate two inputs to knock sensing,
@@ -117,3 +114,13 @@ and trigger inputs
 
  ![PCB Layout](pwr-ign-v1/image.png)
 
+
+## Proto-stm32f427 (v2)
+Generic testing board for stm32f427 or gd32f470.  This is the same pcb
+dimensions as the prior 3 boards, and comes with:
+ - 100 LQFP footprint for microcontroller
+ - USB Type-C (with FS-only pinout)
+ - Optional soic-8 spi nor flash footprint on SPI1
+ - Full 20 pin SWD+ETM trace connector
+
+ ![PCB Layout](proto-stm32f427/image.png)
