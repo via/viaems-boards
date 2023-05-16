@@ -2816,6 +2816,9 @@
     )
   )
 
+  (gr_circle (center 132.7 139.5) (end 132.8 139.7) (layer "B.SilkS") (width 0.15) (fill none) (tstamp 2425c5c3-1fb8-4062-881f-9bd1a7bd8f44))
+  (gr_circle (center 153.2 135.4) (end 153.3 135.6) (layer "B.SilkS") (width 0.15) (fill none) (tstamp ded2cc44-d1d5-4309-9fec-249f14cca54c))
+  (gr_circle (center 131.3 145.5) (end 131.2 145.7) (layer "F.SilkS") (width 0.15) (fill none) (tstamp ba1c806d-7cd8-4d3d-b90c-b960ee9c0605))
   (gr_rect (start 124.7 107.9) (end 158.7 185.9) (layer "Edge.Cuts") (width 0.15) (fill none) (tstamp 19e8e1db-0e6c-4eb2-88cf-c8b162c9d8b8))
   (gr_text "SPI1 FLASH" (at 151.2 139.8 -90) (layer "B.SilkS") (tstamp 8a5a97fc-0033-4fa5-93c3-6e6f41d0a071)
     (effects (font (size 0.75 0.75) (thickness 0.1)) (justify mirror))
