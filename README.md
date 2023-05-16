@@ -122,3 +122,5 @@ dimensions as the prior 3 boards, and comes with:
  - USB Type-C (with FS-only pinout)
  - Optional soic-8 spi nor flash footprint on SPI1
  - Full 20 pin SWD+ETM trace connector
+
+ ![PCB Layout](proto-stm32f427/image.png)
