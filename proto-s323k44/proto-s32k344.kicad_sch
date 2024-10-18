@@ -5974,6 +5974,17 @@
 		)
 		(uuid "016850c9-bf46-4048-bfa9-d4f30b892953")
 	)
+	(label "PTB3"
+		(at 199.39 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "019dba4a-18c0-43bc-8817-bbc5a6bea9c2")
+	)
 	(label "PTC5"
 		(at 175.26 138.43 180)
 		(fields_autoplaced yes)
@@ -6007,6 +6018,17 @@
 		)
 		(uuid "04ca3a38-d252-46e6-ad37-54c7bdbed4b0")
 	)
+	(label "PTC13"
+		(at 186.69 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06512e29-9259-4f1c-871e-5698e9fbda30")
+	)
 	(label "PTA16"
 		(at 223.52 67.31 180)
 		(fields_autoplaced yes)
@@ -6028,6 +6050,17 @@
 			(justify left bottom)
 		)
 		(uuid "0ccc53a9-cc2d-4807-ad1f-fcbe424d6cb9")
+	)
+	(label "PTC23"
+		(at 186.69 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dfb6ad0-fcf5-4929-afa9-5de0e856e2e0")
 	)
 	(label "PTD27"
 		(at 236.22 67.31 0)
@@ -6106,7 +6139,7 @@
 		)
 		(uuid "120b5d8e-7430-447f-b37a-5b4c4624ccc9")
 	)
-	(label "PTC15"
+	(label "PTC17"
 		(at 226.06 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6150,6 +6183,17 @@
 		)
 		(uuid "158b8b4b-e5c3-4748-8fd8-488276e127eb")
 	)
+	(label "PTB21"
+		(at 152.4 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1617262b-8c00-4096-a333-447ac2a866b3")
+	)
 	(label "PTE10"
 		(at 135.89 153.67 180)
 		(fields_autoplaced yes)
@@ -6171,6 +6215,17 @@
 			(justify right bottom)
 		)
 		(uuid "172de837-942b-4f70-b989-510131475f89")
+	)
+	(label "PTC20"
+		(at 186.69 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1773314a-53c4-4f65-aca3-98334aaff973")
 	)
 	(label "PTC1"
 		(at 83.82 116.84 180)
@@ -6303,6 +6358,17 @@
 			(justify right bottom)
 		)
 		(uuid "1c9a5096-56f4-4404-9d3f-ba7a5eee183f")
+	)
+	(label "PTC19"
+		(at 199.39 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cc61845-f1de-4721-84d0-7938779d02f5")
 	)
 	(label "PTD22"
 		(at 270.51 46.99 0)
@@ -6480,6 +6546,17 @@
 		)
 		(uuid "2a977dc1-583a-429a-85fe-7cfed3ace13e")
 	)
+	(label "PTB2"
+		(at 186.69 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bc41dcd-3785-49a2-9b2d-b0826fbe13b0")
+	)
 	(label "3v3"
 		(at 63.5 52.07 180)
 		(fields_autoplaced yes)
@@ -6545,6 +6622,17 @@
 			(justify right bottom)
 		)
 		(uuid "30bf3e25-3174-492f-a434-5d5c2b294b6b")
+	)
+	(label "PTB24"
+		(at 199.39 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "314b72ce-31bd-4a8f-8749-75dc59421821")
 	)
 	(label "PTA31"
 		(at 165.1 40.64 0)
@@ -6821,6 +6909,17 @@
 		)
 		(uuid "42583014-fb69-465c-a33c-401ddbeb681e")
 	)
+	(label "PTB25"
+		(at 199.39 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43a59a8a-081e-4463-b668-9da37aa78736")
+	)
 	(label "PTD15"
 		(at 152.4 40.64 180)
 		(fields_autoplaced yes)
@@ -6996,6 +7095,17 @@
 			(justify right bottom)
 		)
 		(uuid "543b2bfe-24bf-4f1a-8c0c-43daf64d0660")
+	)
+	(label "PTC21"
+		(at 199.39 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "544693a0-759b-4acd-bc4d-fbe17722b047")
 	)
 	(label "PTD13"
 		(at 110.49 151.13 180)
@@ -7217,6 +7327,17 @@
 		)
 		(uuid "63573e30-a8de-4d90-9da0-d5ad00743080")
 	)
+	(label "PTC16"
+		(at 246.38 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65baa5f9-2c78-41b8-96b6-3d43937853c0")
+	)
 	(label "PTC29"
 		(at 83.82 185.42 180)
 		(fields_autoplaced yes)
@@ -7282,6 +7403,28 @@
 			(justify right bottom)
 		)
 		(uuid "6bfe0b8b-7353-4ca6-bfed-c0e9e002cf94")
+	)
+	(label "PTB26"
+		(at 186.69 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d0e0102-25df-447d-af24-1be23a950fe6")
+	)
+	(label "PTB22"
+		(at 186.69 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f3b50af-38a4-468d-8a9c-0050bdc149e1")
 	)
 	(label "PTD3"
 		(at 110.49 125.73 180)
@@ -7381,6 +7524,17 @@
 			(justify right bottom)
 		)
 		(uuid "7a9533c8-4c1a-46d8-9c87-e101cf27d911")
+	)
+	(label "PTB28"
+		(at 199.39 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ad9afd6-785f-4958-adc2-d7e65740d751")
 	)
 	(label "PTA2"
 		(at 257.81 39.37 180)
@@ -7513,6 +7667,28 @@
 			(justify right bottom)
 		)
 		(uuid "868c71e4-f56e-4c8c-ab58-c31d28a7e065")
+	)
+	(label "PTC25"
+		(at 186.69 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87101247-7f16-42a3-9956-1c744799c113")
+	)
+	(label "PTC14"
+		(at 186.69 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87a5fc14-d923-49e1-92c6-1ec9c8241ddf")
 	)
 	(label "PTA4"
 		(at 29.21 128.27 180)
@@ -7679,6 +7855,17 @@
 		)
 		(uuid "947e3bee-c234-49e7-a0ac-9920711784f5")
 	)
+	(label "PTC15"
+		(at 246.38 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94addd68-cbe6-47b7-9878-39666df34a44")
+	)
 	(label "PTC2"
 		(at 83.82 119.38 180)
 		(fields_autoplaced yes)
@@ -7722,6 +7909,17 @@
 			(justify right bottom)
 		)
 		(uuid "9a1cf4b7-609f-4365-9399-f22ba412b250")
+	)
+	(label "PTC12"
+		(at 186.69 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ae28532-e118-4fc3-ac0c-101ac7ae30e1")
 	)
 	(label "PTC6"
 		(at 223.52 72.39 180)
@@ -7843,6 +8041,17 @@
 			(justify right bottom)
 		)
 		(uuid "a08ccacd-a15f-4731-87e5-e826192f28b4")
+	)
+	(label "PTB20"
+		(at 165.1 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a10915f6-c252-4f16-a2d2-4bfdfef54a5e")
 	)
 	(label "PTE1"
 		(at 223.52 41.91 180)
@@ -7998,6 +8207,17 @@
 		)
 		(uuid "b04ff8f9-da80-4b61-820e-d187ae99dd82")
 	)
+	(label "PTB27"
+		(at 186.69 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1411513-47e8-452b-8eaf-9d50462837e0")
+	)
 	(label "PTE14"
 		(at 152.4 30.48 180)
 		(fields_autoplaced yes)
@@ -8119,6 +8339,17 @@
 		)
 		(uuid "baccf463-aac2-49ae-822c-e697908717ae")
 	)
+	(label "PTC18"
+		(at 199.39 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb269c42-a8cb-4ad7-8ebf-28a7dca259ca")
+	)
 	(label "PTB26"
 		(at 55.88 180.34 180)
 		(fields_autoplaced yes)
@@ -8151,6 +8382,17 @@
 			(justify left bottom)
 		)
 		(uuid "bec5f3e9-0545-42bf-95b4-10e0baa0275e")
+	)
+	(label "PTC11"
+		(at 199.39 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf055486-f36e-450d-b206-67c4cb8b0ed3")
 	)
 	(label "PTD8"
 		(at 110.49 138.43 180)
@@ -8217,6 +8459,17 @@
 			(justify right bottom)
 		)
 		(uuid "c3047d81-da22-4c73-bc69-52c21cd32c53")
+	)
+	(label "PTC26"
+		(at 186.69 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3a3c023-4cbc-4341-b4cb-a673cd22b8a7")
 	)
 	(label "PTA9"
 		(at 223.52 34.29 180)
@@ -8405,6 +8658,17 @@
 		)
 		(uuid "d0d3da1a-5b08-438d-95b1-56bc28690540")
 	)
+	(label "PTB23"
+		(at 186.69 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3056a1d-1a37-4cc6-965c-192a6eca03b6")
+	)
 	(label "PTA5"
 		(at 133.35 58.42 180)
 		(fields_autoplaced yes)
@@ -8591,6 +8855,17 @@
 			(justify left bottom)
 		)
 		(uuid "e0556cf6-f6b2-4838-b391-616267252bfb")
+	)
+	(label "PTB29"
+		(at 199.39 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e13d3b44-bfc7-4e34-b1de-28ccd0638c9e")
 	)
 	(label "PTD26"
 		(at 236.22 64.77 0)
@@ -8811,6 +9086,17 @@
 			(justify right bottom)
 		)
 		(uuid "f4f39bbe-fb61-446b-8196-019a311ab8ad")
+	)
+	(label "PTC24"
+		(at 199.39 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f60bc5f0-a3a3-4bb7-8157-8e552af4315c")
 	)
 	(label "PTB10"
 		(at 55.88 139.7 180)
