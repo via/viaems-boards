@@ -441,7 +441,7 @@
 				)
 				(pin passive line
 					(at -7.62 -20.32 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -477,7 +477,7 @@
 				)
 				(pin passive line
 					(at -10.16 -20.32 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -513,7 +513,7 @@
 				)
 				(pin passive line
 					(at -12.7 -20.32 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -549,7 +549,7 @@
 				)
 				(pin passive line
 					(at -15.24 -20.32 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -585,7 +585,7 @@
 				)
 				(pin passive line
 					(at -20.32 -10.16 0)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -675,7 +675,7 @@
 				)
 				(pin passive line
 					(at -2.54 -20.32 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -791,10 +791,40 @@
 		(uuid "3c7992b6-1d6a-43f8-ae27-a395b0fb4db2")
 	)
 	(junction
+		(at 76.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a48ff40-8116-4c19-bf9f-6c7eec3bd2cd")
+	)
+	(junction
+		(at 71.12 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58267d88-8230-4899-936e-b0e1ce000ffd")
+	)
+	(junction
 		(at 115.57 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60f35b27-0925-4ebd-b746-120cdd99b345")
+	)
+	(junction
+		(at 78.74 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "627dd846-9017-4ee1-b2dd-afc7c7211574")
+	)
+	(junction
+		(at 73.66 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770aa0f5-73ab-4260-8068-7c7420ebca71")
+	)
+	(junction
+		(at 81.28 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a6c4720-9388-457b-b3a3-2d38d1259249")
 	)
 	(junction
 		(at 115.57 90.17)
@@ -890,6 +920,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fbc572-1fed-4b60-8638-388a1f36eb5e")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 76.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d8b850-2472-41df-956b-f453a59e444b")
+	)
+	(wire
+		(pts
 			(xy 111.76 97.79) (xy 130.81 97.79)
 		)
 		(stroke
@@ -920,6 +970,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5230a0b3-34f8-4766-b46a-265dfc400925")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 130.81 76.2)
 		)
 		(stroke
@@ -947,6 +1007,26 @@
 			(type default)
 		)
 		(uuid "66a3901b-c70d-45c1-abba-f706e17637f5")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672b2289-415a-4aac-9f9a-b9bcdce7a81f")
+	)
+	(wire
+		(pts
+			(xy 83.82 118.11) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa55a12-1f5d-4a4a-b0de-7befca3d5f4c")
 	)
 	(wire
 		(pts
@@ -1000,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 119.38) (xy 71.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97645305-5520-4b85-9c8a-a98644909998")
+	)
+	(wire
+		(pts
 			(xy 138.43 83.82) (xy 138.43 100.33)
 		)
 		(stroke
@@ -1030,6 +1120,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 119.38) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e244dc-53e9-428e-a61b-247761dfebb2")
+	)
+	(wire
+		(pts
 			(xy 123.19 74.93) (xy 130.81 74.93)
 		)
 		(stroke
@@ -1037,6 +1137,26 @@
 			(type default)
 		)
 		(uuid "b93ba0fe-18ef-42a7-a06e-be4d9667b0ee")
+	)
+	(wire
+		(pts
+			(xy 78.74 119.38) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfd926c-95b2-497d-896c-0fc0f81676c2")
+	)
+	(wire
+		(pts
+			(xy 78.74 119.38) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c4b20e-028b-426e-afd6-5ead9e7a3060")
 	)
 	(wire
 		(pts
@@ -1120,6 +1240,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 119.38) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8baa42d-f28e-4e8d-863c-81e6ecc35c80")
+	)
+	(wire
+		(pts
 			(xy 99.06 100.33) (xy 104.14 100.33)
 		)
 		(stroke
@@ -1157,6 +1287,16 @@
 			(type default)
 		)
 		(uuid "f8ed28af-928d-44f8-898f-48cbc27dbc9d")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7b901b-20ee-4cc7-b7f6-1e968af3f8c4")
 	)
 	(text "In the board default config, TRACE uses \n3.3v logic, and SWD/JTAG uses 5v.\n\nThe 20 pin TRACE connector has DNP resistors\nfor the JTAG/SWD to allow a non-5v capable\ntrace analyzer to be used in addition to\na separate SWD debugger on the 10 pin connector\n\nAlternatively, if a 5V trace is present, \nthe pads can be bridged to allow SWD.\n\nAnother option is selecting 3.3 V for VDD_HV_A\n"
 		(exclude_from_sim no)

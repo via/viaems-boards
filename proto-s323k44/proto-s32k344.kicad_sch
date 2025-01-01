@@ -1358,7 +1358,103 @@
 				)
 			)
 		)
-		(symbol "viaems-boards:S32K344"
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "viaems-parts:S32K344"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4068,7 +4164,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "V11"
@@ -4176,7 +4272,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "V11"
@@ -4320,7 +4416,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "V25"
@@ -4356,7 +4452,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
 					(name "V11"
@@ -4518,7 +4614,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "V11"
@@ -4850,6 +4946,40 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fae79adc-c3da-4adb-925b-7956e6cc4cdd")
+	)
+	(junction
+		(at 38.1 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb6a15a5-3151-4d7f-beec-68eac76a3cf2")
+	)
+	(no_connect
+		(at 199.39 78.74)
+		(uuid "06c9a970-76e8-4000-8673-58a616131695")
+	)
+	(no_connect
+		(at 152.4 78.74)
+		(uuid "0f41d421-9562-4097-afaa-a7f7deaf40fd")
+	)
+	(no_connect
+		(at 186.69 73.66)
+		(uuid "265465cb-0734-4ba9-9241-3ba850b73480")
+	)
+	(no_connect
+		(at 199.39 73.66)
+		(uuid "3c302923-1fe3-45e0-8179-066a67500ef2")
+	)
+	(no_connect
+		(at 186.69 78.74)
+		(uuid "c3d86ef6-11ef-40e0-a353-17e0fcdf3457")
+	)
+	(no_connect
+		(at 199.39 76.2)
+		(uuid "c9f9d330-e8b4-46c1-8b3d-eed3f3c885ff")
+	)
+	(no_connect
+		(at 186.69 76.2)
+		(uuid "fa1e7a16-c24a-4a74-8ebd-6912aaecf181")
 	)
 	(wire
 		(pts
@@ -5553,6 +5683,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75c7355-d2f6-4b68-b732-ab9cd0b188e3")
+	)
+	(wire
+		(pts
 			(xy 86.36 67.31) (xy 90.17 67.31)
 		)
 		(stroke
@@ -5773,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 54.61 62.23)
+			(xy 34.29 62.23) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6039,6 +6179,17 @@
 			(justify right bottom)
 		)
 		(uuid "07516f36-de9d-4579-9e9f-d821add12a83")
+	)
+	(label "PTD5"
+		(at 186.69 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a7562fb-dbe7-4e8c-8973-d6d85386cd93")
 	)
 	(label "PTD17"
 		(at 165.1 35.56 0)
@@ -6370,6 +6521,17 @@
 		)
 		(uuid "1cc61845-f1de-4721-84d0-7938779d02f5")
 	)
+	(label "PTD8"
+		(at 186.69 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d2a24d4-4436-414c-81a6-67f4fa155a9d")
+	)
 	(label "PTD22"
 		(at 270.51 46.99 0)
 		(fields_autoplaced yes)
@@ -6699,17 +6861,6 @@
 			(justify right bottom)
 		)
 		(uuid "3738a4cd-db8b-4156-a7ea-959a73b70717")
-	)
-	(label "PTA4"
-		(at 134.62 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38380300-c27b-45b1-9f17-fc38b738f094")
 	)
 	(label "PTD23"
 		(at 257.81 44.45 180)
@@ -7041,17 +7192,6 @@
 		)
 		(uuid "4fdb5e0b-2964-4157-b45b-7d639df51dbe")
 	)
-	(label "PTA10"
-		(at 134.62 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51869821-c5fb-45f9-b99e-8db92b004aa0")
-	)
 	(label "PTE7"
 		(at 135.89 146.05 180)
 		(fields_autoplaced yes)
@@ -7382,17 +7522,6 @@
 		)
 		(uuid "697d02bc-bfc2-487e-9f23-67d983197ee8")
 	)
-	(label "PTC5"
-		(at 134.62 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69e5f048-84c8-4cb9-b481-47681471a298")
-	)
 	(label "PTA29"
 		(at 29.21 184.15 180)
 		(fields_autoplaced yes)
@@ -7416,13 +7545,13 @@
 		(uuid "6d0e0102-25df-447d-af24-1be23a950fe6")
 	)
 	(label "PTB22"
-		(at 186.69 68.58 180)
+		(at 199.39 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6f3b50af-38a4-468d-8a9c-0050bdc149e1")
 	)
@@ -7689,6 +7818,17 @@
 			(justify right bottom)
 		)
 		(uuid "87a5fc14-d923-49e1-92c6-1ec9c8241ddf")
+	)
+	(label "PTD9"
+		(at 199.39 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87ce8db1-a21b-4892-b2e4-4f4b23a4711e")
 	)
 	(label "PTA4"
 		(at 29.21 128.27 180)
@@ -8669,17 +8809,6 @@
 		)
 		(uuid "d3056a1d-1a37-4cc6-965c-192a6eca03b6")
 	)
-	(label "PTA5"
-		(at 133.35 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d39bd934-1da4-470b-83da-ef094bdd76ed")
-	)
 	(label "PTD4"
 		(at 110.49 128.27 180)
 		(fields_autoplaced yes)
@@ -8955,6 +9084,17 @@
 		)
 		(uuid "ed2143dd-fc9d-402f-9310-ba206abb1566")
 	)
+	(label "PTC3"
+		(at 199.39 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edf669e1-5ec9-448a-a7b4-a17166b3a34d")
+	)
 	(label "PTE2"
 		(at 236.22 34.29 0)
 		(fields_autoplaced yes)
@@ -9108,17 +9248,6 @@
 			(justify right bottom)
 		)
 		(uuid "f6912eff-219c-40d4-8b35-1ed075c77364")
-	)
-	(label "PTC4"
-		(at 132.08 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f73d378a-26f3-4cd9-9bc8-4dbd99931b3b")
 	)
 	(label "PTE12"
 		(at 135.89 158.75 180)
@@ -9486,6 +9615,73 @@
 			(project "proto-s32k344"
 				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208b83bd-4cb4-4bc2-9121-62d54e07d265")
+		(property "Reference" "#FLG04"
+			(at 38.1 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41cf4b7-57aa-477e-af6b-90eb6a27432f")
+		)
+		(instances
+			(project ""
+				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -10210,6 +10406,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48f51e37-d0e9-47c1-9c37-e8245914bc0c")
+		(property "Reference" "#PWR09"
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7aeb686-5c18-4000-a53f-665a1fc7c48f")
+		)
+		(instances
+			(project ""
+				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 30.48 0)
 		(unit 1)
@@ -10279,7 +10542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 110.49 118.11 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -10929,7 +11192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 135.89 128.27 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -11577,73 +11840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae38497-1db8-428a-a677-812b7dfd7822")
-		(property "Reference" "#PWR014"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c14912d2-efaf-43d9-ab49-1eff03de8a3e")
-		)
-		(instances
-			(project "proto-s32k344"
-				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 191.77 38.1 0)
 		(unit 1)
@@ -11817,6 +12013,73 @@
 			(project "proto-s32k344"
 				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d80089-2229-4356-b42b-d582562a8cc5")
+		(property "Reference" "#PWR014"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0697b40c-c939-4d73-a905-78216bed3bdc")
+		)
+		(instances
+			(project "proto-s32k344"
+				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12536,7 +12799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 29.21 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13613,7 +13876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 90.17 16.51 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -14264,7 +14527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 55.88 119.38 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -14914,74 +15177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6b78a3f-8bf2-483b-a464-81f84015ae88")
-		(property "Reference" "#PWR09"
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c3114a0-b935-41a8-b88f-860c95a42fe0")
-		)
-		(instances
-			(project "proto-s32k344"
-				(path "/11f330e8-2377-4dd2-90f0-6a90097d4fa1"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "viaems-boards:S32K344")
+		(lib_id "viaems-parts:S32K344")
 		(at 83.82 114.3 0)
 		(unit 3)
 		(exclude_from_sim no)
