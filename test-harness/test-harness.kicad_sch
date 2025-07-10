@@ -9547,6 +9547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey-Part" "478-7800-1-ND"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81bedbda-7c6b-4618-8aac-d4c0b4b0e673")
 		)
@@ -10081,6 +10090,15 @@
 			)
 		)
 		(property "Description" "Hi Speed Double Channel USB UART/FIFO, VQFN-56"
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey-Part" " 768-1276-ND"
 			(at 135.89 114.3 0)
 			(effects
 				(font
