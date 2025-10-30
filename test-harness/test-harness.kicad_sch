@@ -6203,6 +6203,26 @@
 		)
 		(uuid "feae9fad-d12f-432b-9ea6-74450ede76bb")
 	)
+	(label "D+"
+		(at 83.82 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "176f3263-1201-44ae-a882-c5fbcfb4c856")
+	)
+	(label "D-"
+		(at 88.9 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c55cc7c-edd8-42cc-ba32-033f69f39c8b")
+	)
 	(global_label "FT_D7"
 		(shape input)
 		(at 166.37 83.82 0)
